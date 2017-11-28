@@ -1,0 +1,40 @@
+@media (min-width: 535px) and (max-width: 844px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .sunnyDay{
+    background-image: url(../img/dawn.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 42em;
+  }
+
+.catSunny{
+  content: url(../img/kitten-medium.png);
+  width: 50%;
+  margin-top: 10em;
+  margin-left: 12em;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .sunnyDay{
+    background-image: url(../img/night.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 42em;
+  }
+
+  .catSunny{
+    content: url(../img/kitten-small.png);
+    margin-top: 3em;
+    margin-left: 6em;
+  }
+
+}
